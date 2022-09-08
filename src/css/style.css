@@ -94,7 +94,7 @@ input[type='checkbox']:checked {
 }
 
 input[type='checkbox']:checked:after {
-    content: url('/src/img/check-solid.svg');
+    content: url('https://raw.githubusercontent.com/JLunik/To-Do-List/master/src/img/check-solid.svg');
     display: flex;
     width: 18px;
     margin: auto;
