@@ -15,13 +15,17 @@
                 <h1 class="title">TAREFAS</h1>
             </div>
         </header>
-        <main>
+        <main class="main-height">
             <ul class="todo-list">
                 <li class="todo-list-item">
-                    <div class="checkbox">
-                        <input type="checkbox" class="checkbox2">
+                    <div class="todo-list-item-content" taskId="[$task.id]">
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkbox2">
+                        </div>
+                        <div class="text-box">
+                            [$task.name]
+                        </div>
                     </div>
-                    <div class="text-box">A</div>
                     <div class="delete">
                         <span class="delete-button">
                             <i class="fa-solid fa-trash-can"></i>
@@ -31,7 +35,16 @@
             </ul>
         </main>
         <footer>
-            <div class="button-add">Adicionar</div>
+            <div class="add-container">
+                <div class="add-retangulo">
+                    <div class="add-adicionar">ADICIONAR</div>
+                </div>
+                <div class="add-circulo">
+                    <div class="add-simbolo">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
         </footer>    
     </div>
     <script src="./src/js/main.js"></script>
